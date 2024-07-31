@@ -3,10 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Mi Pagina</h1>
-    <h2>Mi subtitulo</h2>
+    <div class="container">
+        <h1>Lista de Tareas</h1>
+        <form id="task-form">
+            <input type="text" id="task-input" placeholder="Nueva tarea" required>
+            <button type="submit">Agregar</button>
+        </form>
+        <ul id="task-list"></ul>
+    </div>
+    <script src="prueba.js"></script>
 </body>
 </html>
